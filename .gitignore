@@ -1,0 +1,9 @@
+# Data files - too large for GitHub
+data/*.gz
+data/*.rds
+data/raw_fastq/
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
