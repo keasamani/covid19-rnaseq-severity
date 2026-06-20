@@ -40,9 +40,30 @@ trains a machine learning classifier to predict disease severity.
 ## Methods Overview
 ```
 Raw reads (FASTQ)
-      ↓
+
+↓
+
 Quality Control (FastQC + MultiQC)
-      ↓
+
+↓
+
+Alignment (HISAT2) / Quantification (featureCounts)
+
+↓
+
+Differential Expression Analysis (DESeq2)
+
+↓
+
+Pathway Enrichment (clusterProfiler / KEGG)
+
+↓
+
+Machine Learning Classification (Random Forest / Logistic Regression)
+
+↓
+
+Visualization (ggplot2, pheatmap, ROC curves)
 ...
 ```
 ---
