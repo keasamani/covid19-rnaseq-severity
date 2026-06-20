@@ -38,3 +38,63 @@ trains a machine learning classifier to predict disease severity.
 ---
 
 ## Methods Overview
+Raw reads (FASTQ)
+
+↓
+
+Quality Control (FastQC + MultiQC)
+
+↓
+
+Alignment (HISAT2) / Quantification (featureCounts)
+
+↓
+
+Differential Expression Analysis (DESeq2)
+
+↓
+
+Pathway Enrichment (clusterProfiler / KEGG)
+
+↓
+
+Machine Learning Classification (Random Forest / Logistic Regression)
+
+↓
+
+Visualization (ggplot2, pheatmap, ROC curves)
+---
+
+## Repository Structure
+
+## Repository Structure
+covid19-rnaseq-severity/
+├── data/ # Raw and processed data (not tracked by git)
+├── scripts/ # R and Python analysis scripts
+│ ├── 01_qc.sh
+│ ├── 02_deseq2.R
+│ ├── 03_pathway.R
+│ └── 04_ml_model.R
+├── results/ # Figures and output tables
+├── notebooks/ # Exploratory analysis notebooks
+├── README.md
+└── requirements.txt # R package dependencies
+
+
+---
+
+## How to Reproduce
+
+*Full instructions coming soon. Pipeline under active development.*
+
+---
+
+## Author
+
+**Elvis Kwabena Asamani**  
+MS Bioinformatics, Georgia State University  
+[GitHub](https://github.com/keasamani) · [LinkedIn](https://linkedin.com/in/keasamani)
+
+
+
+
