@@ -69,17 +69,20 @@ Visualization (ggplot2, pheatmap, ROC curves)
 ---
 
 ## Repository Structure
+
+```
 covid19-rnaseq-severity/
-├── data/ # Raw and processed data (not tracked by git)
-├── scripts/ # R and Python analysis scripts
-│ ├── 01_qc.sh
-│ ├── 02_deseq2.R
-│ ├── 03_pathway.R
-│ └── 04_ml_model.R
-├── results/ # Figures and output tables
-├── notebooks/ # Exploratory analysis notebooks
+├── data/               # Raw and processed data (not tracked by git)
+├── scripts/            # R and Python analysis scripts
+│   ├── 01_qc.sh
+│   ├── 02_deseq2.R
+│   ├── 03_pathway.R
+│   └── 04_ml_model.R
+├── results/            # Figures and output tables
+├── notebooks/          # Exploratory analysis notebooks
 ├── README.md
-└── requirements.txt # R package dependencies
+└── requirements.txt    # R package dependencies
+```
 
 
 ---
