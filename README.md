@@ -30,10 +30,9 @@ trains a machine learning classifier to predict disease severity.
 
 ## Dataset
 
-**GEO Accession:** GSE152641  
-**Source:** Thair et al. (2021), *Cell Reports Medicine*  
-**Samples:** ~100 whole blood RNA-seq samples (COVID-19 patients + healthy controls)  
-**Severity labels:** Mild, Moderate, Severe, Critical  
+**GEO Accession:** GSE157103  
+**Samples:** 126 whole blood RNA-seq samples (100 COVID-19 + 26 non-COVID-19)  
+**Prediction target:** ICU admission (yes/no) — 66 ICU, 60 non-ICU
 
 ---
 
